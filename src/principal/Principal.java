@@ -13,11 +13,11 @@ public class Principal {
 		
 		Administrador adm = new Administrador ("Administrador", "adm_@gmail.com", "123546884-51");
 		Usuario keisy = new Usuario("Keisy Anny", "keisy.amorim@gmail.com", "084545209-61");
-		Usuario lucia = new Usuario ("Lucia Andrea", "luciasfig2@gmail.com", "094891548-06");
+		Usuario lucia = new Usuario ("Lu Andrea", "luciasfig2@gmail.com", "094891548-06");
 		
 		ArrayList <Pruu> pruuAdministrador =  new ArrayList<Pruu>();
 		adm.setPruus(pruuAdministrador);
-		Pruu pruuAdministrador1 = new Pruu("Hoje o dia parece ótimo para um passeio a praia com os amigos!");
+		Pruu pruuAdministrador1 = new Pruu("Hoje o dia parece ï¿½timo para um passeio a praia com os amigos!");
 		Pruu pruuAdministrador2 = new Pruu("Bora Trilhar hoje!!");
 		pruuAdministrador.add(pruuAdministrador1);
 		pruuAdministrador.add(pruuAdministrador2);
